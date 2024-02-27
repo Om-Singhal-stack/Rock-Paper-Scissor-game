@@ -22,7 +22,6 @@ main h1{
     border-radius: 20px;
 }
 .choice{
-    /* border: 2px solid green; */
     height: 20vh;
     width: 20vh;
     border-radius: 22%;
@@ -47,7 +46,6 @@ main h1{
     display: flex;
     height: 40vh;
     width: 80vw;
-    /* border: 2px solid red; */
     justify-content: space-between;
     align-items: center;
     padding: 5vh;   
@@ -60,7 +58,6 @@ main h1{
     margin: auto;
     width: 80vw;
     padding: 5vh 5vw;
-    /* border: 2px solid gray; */
 }
 .score{
     
