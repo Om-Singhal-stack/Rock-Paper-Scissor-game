@@ -10,20 +10,21 @@ main h1{
     background-color: rgb(17, 17, 53);
     font-family: "Kode Mono", monospace;
     color: white;
+    width: auto;
     font-size: 40px;
 }
 .rest-but{
      margin-top: 20px;
      background-color   : #D16014;
      display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px 40px;
-    width: 30vw;
+    width: fit-content;
     border-radius: 20px;
 }
 .choice{
-    height: 20vh;
-    width: 20vh;
+    height: 24vmin;
+    width: 24vmin;
     border-radius: 22%;
     background-position: center;
     background-size: cover;
@@ -44,11 +45,12 @@ main h1{
 
 #choices{
     display: flex;
-    height: 40vh;
-    width: 80vw;
+    height: 40vmin;
+    width: fit-content;
+    gap: 3vmin;
     justify-content: space-between;
     align-items: center;
-    padding: 5vh;   
+    padding: 10%;   
     margin: auto;
     flex-wrap: wrap;
 }
@@ -56,13 +58,14 @@ main h1{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 80vw;
-    padding: 5vh 5vw;
+    margin: auto;
+    width: fit-content;
+    padding: 25% 10%;
 }
 .score{
     
-    padding: 2vh;
-    font-size: 30px;
+    padding: 10vmin;
+    font-size: 30px;;
 }
 .score p{
     color: blueviolet;
@@ -71,10 +74,11 @@ main h1{
     display: inline-block;
     font-size: 30px;
     padding: 10px 40px;
-    width: 20vw;
+    width: fit-content;
     background-color: rgba(14, 201, 164, 0.582);
     border-radius: 20px;
 }
 .msg-container p{
     color: white;
+    font-size: 20px;
 }
